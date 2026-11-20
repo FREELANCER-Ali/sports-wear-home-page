@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://decapriofashion.vercel.app/sitemap.xml
+
