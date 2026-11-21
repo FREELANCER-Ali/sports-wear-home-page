@@ -4,49 +4,49 @@ const capabilities = [
   {
     title: 'Cut & Sew',
     desc: 'Made to your pattern, never blanks',
-    img: '/images/services/svc-cut-sew.jpg',
+    img: "/images/services/svc-cut-sew.webp",
     alt: 'Fabric spreading and cutting tables in a garment factory'
   },
   {
     title: 'Private Label',
     desc: 'Only your brand on the finished piece',
-    img: '/images/services/svc-private-label.jpg',
+    img: "/images/services/svc-private-label.webp",
     alt: 'A woven brand label positioned at the inside back neck'
   },
   {
     title: 'Embroidery',
     desc: 'Flat, 3D puff and chenille',
-    img: '/images/manufacturing/embroidery-machine.jpg',
+    img: "/images/manufacturing/embroidery-machine.webp",
     alt: 'Multi-head industrial embroidery machine stitching a monogram'
   },
   {
     title: 'Printing',
     desc: 'Screen, DTG, DTF, sublimation',
-    img: '/images/services/svc-printing.jpg',
+    img: "/images/services/svc-printing.webp",
     alt: 'Screen printing carousel with a squeegee pulling ink'
   },
   {
     title: 'Fabric Sourcing',
     desc: 'Cotton, fleece, pique, twill, technical',
-    img: '/images/services/svc-fabric-sourcing.jpg',
+    img: "/images/services/svc-fabric-sourcing.webp",
     alt: 'Fabric store room with shelving racks holding rolls'
   },
   {
     title: 'Labels & Trims',
     desc: 'Woven, printed, tags, buttons, zips',
-    img: '/images/services/svc-labels-trims.jpg',
+    img: "/images/services/svc-labels-trims.webp",
     alt: 'Tray of garment trims including zips and branded buttons'
   },
   {
     title: 'Sampling',
     desc: 'Physical sample first — 7–14 days',
-    img: '/images/services/svc-sampling.jpg',
+    img: "/images/services/svc-sampling.webp",
     alt: 'A printed garment tech pack beside a folded sample polo'
   },
   {
     title: 'Packing & Export',
     desc: 'Polybagged, tagged, shipped worldwide',
-    img: '/images/manufacturing/packed-cartons.jpg',
+    img: "/images/manufacturing/packed-cartons.webp",
     alt: 'Folded garments in clear polybags being packed into cartons'
   }
 ];
@@ -56,12 +56,12 @@ export default function Capabilities() {
     <section className="env section-padding" id="capabilities">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/manufacturing/embroidery-machine-bg.jpg"
+          src="/images/manufacturing/embroidery-machine-bg.webp"
           alt=""
           width="1200"
           height="799"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">
@@ -80,7 +80,7 @@ export default function Capabilities() {
                 width="900"
                 height="600"
                 loading="lazy"
-              />
+              decoding="async" />
               <span className="cap-body">
                 <strong>{item.title}</strong>
                 <em>{item.desc}</em>

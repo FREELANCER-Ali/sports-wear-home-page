@@ -5,12 +5,12 @@ export default function Testimonials() {
     <section className="env env--deep section-padding" id="testimonials">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/manufacturing/qc-inspection-bg.jpg"
+          src="/images/manufacturing/qc-inspection-bg.webp"
           alt=""
           width="1200"
           height="799"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">

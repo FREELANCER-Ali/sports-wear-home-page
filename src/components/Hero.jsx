@@ -39,13 +39,13 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-bg" aria-hidden="true">
         <img
-          src="/images/manufacturing/sewing-floor-bg.jpg"
+          src="/images/manufacturing/sewing-floor-bg.webp"
           alt=""
           width="1200"
           height="799"
           loading="eager"
           fetchPriority="high"
-        />
+        decoding="async" />
       </div>
 
       <div className="hero-veil" aria-hidden="true"></div>
@@ -107,13 +107,13 @@ export default function Hero() {
             >
               <div className="hero-product-inner">
                 <img
-                  src="/images/products/jackets/varsity-jacket-cutout.png"
+                  src="/images/products/jackets/varsity-jacket-cutout.webp"
                   alt="Navy varsity jacket with cream leather-look sleeves and raised chenille chest patch"
                   width="885"
                   height="979"
                   loading="eager"
                   fetchPriority="high"
-                />
+                decoding="async" />
               </div>
             </figure>
 
@@ -123,12 +123,12 @@ export default function Hero() {
             >
               <div className="hero-chip-inner">
                 <img
-                  src="/images/products/jackets/details/jacket-chenille-patch.jpg"
+                  src="/images/products/jackets/details/jacket-chenille-patch.webp"
                   alt="Close-up of a raised chenille chest patch"
                   width="640"
                   height="640"
                   loading="eager"
-                />
+                decoding="async" />
                 <figcaption>Your logo, applied</figcaption>
               </div>
             </figure>
@@ -139,12 +139,12 @@ export default function Hero() {
             >
               <div className="hero-chip-inner">
                 <img
-                  src="/images/products/jackets/details/jacket-rib-collar.jpg"
+                  src="/images/products/jackets/details/jacket-rib-collar.webp"
                   alt="Close-up of the striped knitted rib collar"
                   width="640"
                   height="640"
                   loading="lazy"
-                />
+                decoding="async" />
                 <figcaption>Knitted rib trims</figcaption>
               </div>
             </figure>

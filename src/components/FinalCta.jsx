@@ -5,12 +5,12 @@ export default function FinalCta() {
     <section className="env env--open section-padding cta-close" id="quote">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/manufacturing/packed-cartons-bg.jpg"
+          src="/images/manufacturing/packed-cartons-bg.webp"
           alt=""
           width="1200"
           height="799"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container text-center">

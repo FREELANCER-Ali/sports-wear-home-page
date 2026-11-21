@@ -4,49 +4,49 @@ const swatches = [
   {
     title: 'Cotton pique',
     spec: 'Polos · 220 GSM',
-    img: '/images/materials/fabric-cotton-pique.jpg',
+    img: "/images/materials/fabric-cotton-pique.webp",
     alt: 'Close-up of navy cotton pique knit showing waffle texture'
   },
   {
     title: 'Brushed fleece',
     spec: 'Hoodies · 320–400 GSM',
-    img: '/images/materials/mat-fleece.jpg',
+    img: "/images/materials/mat-fleece.webp",
     alt: 'Close-up of heavyweight brushed cotton fleece in heather grey'
   },
   {
     title: 'Performance knit',
     spec: 'Sportswear · moisture moving',
-    img: '/images/materials/mat-performance.jpg',
+    img: "/images/materials/mat-performance.webp",
     alt: 'Close-up of matte navy technical performance polyester knit'
   },
   {
     title: 'Knitted rib',
     spec: 'Collars, cuffs, hems',
-    img: '/images/materials/mat-rib.jpg',
+    img: "/images/materials/mat-rib.webp",
     alt: 'Close-up of navy and cream striped knitted rib trim'
   },
   {
     title: 'Embroidery',
     spec: 'Flat, 3D puff, chenille',
-    img: '/images/materials/mat-embroidery.jpg',
+    img: "/images/materials/mat-embroidery.webp",
     alt: 'Extreme macro of dense satin-stitch embroidery'
   },
   {
     title: 'Printing',
     spec: 'Screen, DTG, DTF, sublimation',
-    img: '/images/materials/mat-print-detail.jpg',
+    img: "/images/materials/mat-print-detail.webp",
     alt: 'Extreme macro of a screen-printed graphic edge on jersey'
   },
   {
     title: 'Labels',
     spec: 'Woven, printed, hem tabs',
-    img: '/images/materials/mat-woven-label.jpg',
+    img: "/images/materials/mat-woven-label.webp",
     alt: 'Extreme macro of a folded woven care label in seam'
   },
   {
     title: 'Trims',
     spec: 'Zips, buttons, drawcords',
-    img: '/images/materials/mat-zip-trim.jpg',
+    img: "/images/materials/mat-zip-trim.webp",
     alt: 'Extreme macro of a metal zipper closed on navy garment'
   }
 ];
@@ -82,7 +82,7 @@ function SwatchCard({ sw }) {
             transformOrigin: `${zoom.x}% ${zoom.y}%`,
             transform: zoom.active ? 'scale(1.75)' : 'scale(1)'
           }}
-        />
+        decoding="async" />
         <div className="swatch-zoom-badge" aria-hidden="true" title="Zoom to inspect">
           <svg
             width="13"
@@ -114,12 +114,12 @@ export default function Materials() {
     <section className="env env--deep section-padding" id="materials">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/backgrounds/bg-fabric-wall-bg.jpg"
+          src="/images/backgrounds/bg-fabric-wall-bg.webp"
           alt=""
           width="1200"
           height="800"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">

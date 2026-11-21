@@ -14,10 +14,10 @@ export default function Header() {
                 width="869"
                 height="669"
                 loading="eager"
-              />
+              decoding="async" />
               <span className="logo-text">
                 <span>DECAPRIO</span>
-                <span>FASHION INTERNATIONAL</span>
+                <span>INTERNATIONAL</span>
               </span>
             </a>
           </div>

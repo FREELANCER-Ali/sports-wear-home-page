@@ -5,12 +5,12 @@ export default function WhyNovus() {
     <section className="env section-padding" id="why-sialkot">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/services/svc-fabric-sourcing-bg.jpg"
+          src="/images/services/svc-fabric-sourcing-bg.webp"
           alt=""
           width="900"
           height="600"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">
@@ -58,7 +58,7 @@ export default function WhyNovus() {
                 width="250"
                 height="250"
                 loading="lazy"
-              />
+              decoding="async" />
             </span>
             <span className="registration-name">Federal Board of Revenue</span>
             <span className="registration-status">Registered business</span>
@@ -72,7 +72,7 @@ export default function WhyNovus() {
                 width="250"
                 height="250"
                 loading="lazy"
-              />
+              decoding="async" />
             </span>
             <span className="registration-name">Sialkot Chamber of Commerce &amp; Industry</span>
             <span className="registration-status">Member</span>

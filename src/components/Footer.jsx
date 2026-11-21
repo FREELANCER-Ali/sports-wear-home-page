@@ -12,16 +12,16 @@ export default function Footer() {
             <div className="footer-logo-container" style={{ display: 'flex', alignItems: 'center', gap: '14px', marginBottom: '16px' }}>
               <img
                 src="/images/logo/decaprio-logo-white.png"
-                alt="Decaprio Fashion International Logo"
+                alt="Decaprio International Logo"
                 className="footer-logo"
                 width="869"
                 height="669"
                 loading="lazy"
-              />
+              decoding="async" />
               <span className="footer-logo-text" style={{ fontSize: '1rem', fontWeight: '700', color: '#fff', lineHeight: '1.2' }}>
                 <span>DECAPRIO</span>
                 <br />
-                <span style={{ fontSize: '0.72em', color: '#aaa', fontWeight: '400', letterSpacing: '0.05em' }}>FASHION INTERNATIONAL</span>
+                <span style={{ fontSize: '0.72em', color: '#aaa', fontWeight: '400', letterSpacing: '0.05em' }}>INTERNATIONAL</span>
               </span>
             </div>
 
@@ -61,9 +61,9 @@ export default function Footer() {
           <div className="footer-section footer-partners">
             <h3>We Ship Via</h3>
             <div className="partner-logos">
-              <img src="/images/partners/dhl-logo.png" alt="DHL Logo" width="278" height="52" loading="lazy" />
-              <img src="/images/partners/fedex-logo.png" alt="FedEx Logo" width="271" height="87" loading="lazy" />
-              <img src="/images/partners/ups-logo.png" alt="UPS Logo" width="204" height="112" loading="lazy" />
+              <img src="/images/partners/dhl-logo.png" alt="DHL Logo" width="278" height="52" loading="lazy" decoding="async" />
+              <img src="/images/partners/fedex-logo.png" alt="FedEx Logo" width="271" height="87" loading="lazy" decoding="async" />
+              <img src="/images/partners/ups-logo.png" alt="UPS Logo" width="204" height="112" loading="lazy" decoding="async" />
             </div>
           </div>
 
@@ -126,7 +126,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Decaprio Fashion International. All rights reserved.</p>
+          <p>&copy; {currentYear} Decaprio International. All rights reserved.</p>
         </div>
       </div>
     </footer>

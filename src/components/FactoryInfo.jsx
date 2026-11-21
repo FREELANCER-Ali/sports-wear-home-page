@@ -5,24 +5,24 @@ export default function FactoryInfo() {
     <section className="env env--open section-padding" id="factory">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/manufacturing/sewing-floor-bg.jpg"
+          src="/images/manufacturing/sewing-floor-bg.webp"
           alt=""
           width="1200"
           height="799"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">
         <div className="split-feature">
           <figure className="split-feature-image">
             <img
-              src="/images/services/svc-cut-sew.jpg"
+              src="/images/services/svc-cut-sew.webp"
               alt="Fabric spreading and cutting tables in factory"
               width="900"
               height="600"
               loading="lazy"
-            />
+            decoding="async" />
           </figure>
 
           <div className="split-feature-text">

@@ -44,12 +44,12 @@ export default function Faq() {
     <section className="env env--deep section-padding" id="faq">
       <div className="env-bg" aria-hidden="true">
         <img
-          src="/images/backgrounds/bg-fabric-wall-bg.jpg"
+          src="/images/backgrounds/bg-fabric-wall-bg.webp"
           alt=""
           width="1200"
           height="800"
           loading="lazy"
-        />
+        decoding="async" />
       </div>
 
       <div className="container">
