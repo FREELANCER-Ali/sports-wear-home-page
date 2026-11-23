@@ -114,7 +114,7 @@ export default function Footer() {
             <h3>Get In Touch</h3>
             <div className="contact-item">
               <i className="fas fa-map-marker-alt"></i>
-              <p>Street no.2 Eimanabad Rd, Rehman Pura,<br />Sialkot, 51310, Pakistan</p>
+              <p>Saiftown, Jallianwala,<br />P.O. Moma Kalan, Sialkot, Pakistan</p>
             </div>
             <div className="contact-item">
               <i className="fas fa-envelope" style={{ color: '#4C82F7' }}></i>
