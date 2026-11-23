@@ -1,6 +1,6 @@
-# Decaprio Fashion International — Official Website
+# Decaprio International — Official Website
 
-Official website and landing page for **Decaprio Fashion International**, premier cut & sew custom clothing and sportswear manufacturer based in Sialkot, Pakistan.
+Official website and landing page for **Decaprio International**, premier cut & sew custom clothing and sportswear manufacturer based in Sialkot, Pakistan.
 
 ## 🚀 Built With
 - **React 18**

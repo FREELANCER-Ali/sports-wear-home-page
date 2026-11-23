@@ -47,6 +47,20 @@ export default function Footer() {
                 <i className="fab fa-instagram"></i>
               </a>
               <a
+                href="https://www.tiktok.com/@decapriointernational?_r=1&_t=ZS-9Be7cKrV39Y"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+              >
+                <i className="fab fa-tiktok"></i>
+              </a>
+              <a
+                href="mailto:Info.decapriointl@gmail.com"
+                aria-label="Email Us"
+              >
+                <i className="fas fa-envelope"></i>
+              </a>
+              <a
                 href="https://wa.me/923484967297"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,6 +115,14 @@ export default function Footer() {
             <div className="contact-item">
               <i className="fas fa-map-marker-alt"></i>
               <p>Street no.2 Eimanabad Rd, Rehman Pura,<br />Sialkot, 51310, Pakistan</p>
+            </div>
+            <div className="contact-item">
+              <i className="fas fa-envelope" style={{ color: '#4C82F7' }}></i>
+              <p>
+                <a href="mailto:Info.decapriointl@gmail.com">
+                  Info.decapriointl@gmail.com
+                </a>
+              </p>
             </div>
             <div className="contact-item">
               <i className="fab fa-whatsapp" style={{ color: '#25D366' }}></i>

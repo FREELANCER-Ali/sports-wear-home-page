@@ -9,7 +9,7 @@ export default function Header() {
             <a href="#home" className="nav-logo-container">
               <img
                 src="/images/logo/decaprio-logo-black.png"
-                alt="Decaprio Fashion International Logo"
+                alt="Decaprio International Logo"
                 className="main-logo"
                 width="869"
                 height="669"
@@ -22,7 +22,16 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="header-actions">
+          <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <a
+              href="mailto:Info.decapriointl@gmail.com"
+              className="btn btn-ghost"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '10px 14px', fontSize: '0.85rem' }}
+              title="Email: Info.decapriointl@gmail.com"
+            >
+              <i className="fas fa-envelope" style={{ color: 'var(--primary-color)' }}></i>
+              <span className="header-email-text">Email</span>
+            </a>
             <a
               href="https://wa.me/923484967297"
               target="_blank"

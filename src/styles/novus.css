@@ -8160,3 +8160,84 @@ body {
     font-size: 1.4rem;
   }
 }
+
+/* =================================================================== */
+/*             PERFORMANCE & SMOOTHNESS ENHANCEMENTS                  */
+/* =================================================================== */
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+/* Hardware accelerated transitions for 60/120fps fluid scrolling & hover */
+.btn,
+.btn-large,
+.btn-quote,
+.btn-primary,
+.btn-ghost,
+.floating-wa-btn,
+.socials a,
+.showroom-card,
+.capability-card,
+.process-card,
+.material-card,
+.faq-item {
+  will-change: transform, box-shadow;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), 
+              filter 0.25s ease, 
+              color 0.2s ease, 
+              background-color 0.25s ease;
+}
+
+/* Footer & FinalCta Social Links Smooth Hover */
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+              color 0.2s ease, 
+              background-color 0.25s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-4px) scale(1.15);
+  color: var(--white-color) !important;
+}
+
+.socials a:hover .fa-facebook-f { color: #1877F2; }
+.socials a:hover .fa-instagram { color: #E1306C; }
+.socials a:hover .fa-tiktok { color: #25F4EE; }
+.socials a:hover .fa-envelope { color: #4C82F7; }
+.socials a:hover .fa-whatsapp { color: #25D366; }
+
+/* Header Email Button */
+.header-actions .btn-ghost {
+  border: 1px solid rgba(76, 130, 247, 0.25);
+  color: var(--dark-text);
+  border-radius: 50px;
+}
+
+.header-actions .btn-ghost:hover {
+  background: rgba(76, 130, 247, 0.08);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .header-email-text {
+    display: none;
+  }
+}
+
