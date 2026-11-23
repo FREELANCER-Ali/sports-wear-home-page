@@ -8376,53 +8376,96 @@ body {
   }
 
   .navbar .container {
-    padding: 0 14px !important;
+    padding: 0 12px !important;
   }
 
-  /* Hide duplicate text next to the diamond logo badge on phone */
-  .logo-text {
-    display: none !important;
+  .nav-logo-container {
+    gap: 8px !important;
   }
 
   .main-logo {
-    height: 40px !important;
-    max-height: 40px !important;
+    height: 38px !important;
+    max-height: 38px !important;
     width: auto !important;
   }
 
+  /* Display DECAPRIO INTERNATIONAL text alongside logo with elegant mobile proportion */
+  .logo-text {
+    display: flex !important;
+    flex-direction: column !important;
+    line-height: 1.1 !important;
+  }
+
+  .logo-title {
+    font-size: 0.88rem !important;
+    font-weight: 800 !important;
+    color: #111111 !important;
+    letter-spacing: 0.03em !important;
+  }
+
+  .logo-subtitle {
+    font-size: 0.52rem !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    letter-spacing: 0.08em !important;
+    margin-top: 1px !important;
+  }
+
   .header-actions {
-    gap: 8px !important;
+    gap: 6px !important;
   }
 
   /* Compact round email icon button on phone */
   .header-btn-email {
-    width: 38px !important;
-    height: 38px !important;
+    width: 34px !important;
+    height: 34px !important;
     padding: 0 !important;
     border-radius: 50% !important;
+    font-size: 0.88rem !important;
   }
 
   .header-btn-email .header-btn-text {
     display: none !important;
   }
 
-  /* Beautifully proportioned WhatsApp green button on phone */
+  /* Sleek WhatsApp green button on phone */
   .header-btn-whatsapp {
-    padding: 7px 14px !important;
-    font-size: 0.82rem !important;
-    gap: 6px !important;
+    padding: 6px 11px !important;
+    font-size: 0.78rem !important;
+    gap: 5px !important;
   }
 
   .header-btn-whatsapp i {
-    font-size: 1.05rem !important;
+    font-size: 0.98rem !important;
   }
 }
 
 /* Small phone width (< 360px) */
-@media (max-width: 350px) {
+@media (max-width: 360px) {
+  .navbar .container {
+    padding: 0 8px !important;
+  }
+
+  .nav-logo-container {
+    gap: 6px !important;
+  }
+
+  .main-logo {
+    height: 34px !important;
+    max-height: 34px !important;
+  }
+
+  .logo-title {
+    font-size: 0.8rem !important;
+  }
+
+  .logo-subtitle {
+    font-size: 0.48rem !important;
+  }
+
   .header-btn-whatsapp {
-    padding: 7px 10px !important;
-    font-size: 0.78rem !important;
+    padding: 5px 9px !important;
+    font-size: 0.74rem !important;
   }
 }
 
