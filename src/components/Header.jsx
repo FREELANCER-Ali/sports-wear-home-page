@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header>
+    <header className="site-header">
       <nav className="navbar" aria-label="Primary">
         <div className="container">
           <div className="navbar-header">
-            <a href="#home" className="nav-logo-container">
+            <a href="#home" className="nav-logo-container" aria-label="Decaprio International">
               <img
                 src="/images/logo/decaprio-logo-black.png"
                 alt="Decaprio International Logo"
@@ -14,33 +14,35 @@ export default function Header() {
                 width="869"
                 height="669"
                 loading="eager"
-              decoding="async" />
+                decoding="async"
+              />
               <span className="logo-text">
-                <span>DECAPRIO</span>
-                <span>INTERNATIONAL</span>
+                <span className="logo-title">DECAPRIO</span>
+                <span className="logo-subtitle">INTERNATIONAL</span>
               </span>
             </a>
           </div>
 
-          <div className="header-actions" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div className="header-actions">
             <a
               href="mailto:Info.decapriointl@gmail.com"
-              className="btn btn-ghost"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', padding: '10px 14px', fontSize: '0.85rem' }}
-              title="Email: Info.decapriointl@gmail.com"
+              className="header-btn header-btn-email"
+              title="Email Us: Info.decapriointl@gmail.com"
+              aria-label="Send Email"
             >
-              <i className="fas fa-envelope" style={{ color: 'var(--primary-color)' }}></i>
-              <span className="header-email-text">Email</span>
+              <i className="fas fa-envelope"></i>
+              <span className="header-btn-text">Email</span>
             </a>
             <a
               href="https://wa.me/923484967297"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-quote"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+              className="header-btn header-btn-whatsapp"
+              title="Chat on WhatsApp"
+              aria-label="Chat on WhatsApp"
             >
-              <i className="fab fa-whatsapp" style={{ fontSize: '1.1rem', color: '#25D366' }}></i>
-              <span>WhatsApp</span>
+              <i className="fab fa-whatsapp"></i>
+              <span className="header-btn-text-wa">WhatsApp</span>
             </a>
           </div>
         </div>
